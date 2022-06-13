@@ -35,11 +35,7 @@
 
 }
 
-@media (min-height:431px) {
-    .container-menu {
-        display: none;
-    }
-}
+
 
 @media (max-width: 1000px) {
     .container {
