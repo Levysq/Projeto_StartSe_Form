@@ -63,6 +63,9 @@ header .container {
     height: 80px;
 }
 
+#checkbox-menu {
+    display: none;
+}
 
 /* CONFIGURAÇÕES - MAIN
 ************/
