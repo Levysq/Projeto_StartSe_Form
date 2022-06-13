@@ -31,13 +31,13 @@
                     <nav>
                         <ul class="menu">
                             <li>
-                                <a href="#">HOME</a>
+                                <a href="#home">HOME</a>
                             </li>
                             <li>
-                                <a href="#">ARTIGOS</a>
+                                <a href="#artigos">ARTIGOS</a>
                             </li>
                             <li>
-                                <a href="#">CONTATO</a>
+                                <a href="#contatos">CONTATO</a>
                             </li>
                         </ul>
                     </nav>
@@ -47,7 +47,7 @@
     </header>
 
     <!-----Formulário------>
-    <main>
+    <main id="home">
         <div class="container-main">
             <div>
                 <h2><span>Inscreva-se agora</span></h2>
@@ -65,61 +65,134 @@
         </div>
     </main>
 
-    <section class="cards">
+    <section id="artigos" class="cards">
 
-        <div class="card">
-            <div class="image">
-                <img src="/img/unicornio.webp" alt="unicornio">
-            </div>
+        <a href="https://www.startse.com/artigos/kushki-do-equador-e-o-mais-novo-unicornio-latino">
+            <div class="card">
+                <div class="image">
+                    <img src="/img/unicornio.webp" alt="Unicornio">
+                </div>
 
-            <div class="content">
-                <p class="title text--medium">
-                    Com startups mais 'baratas', grandes empresas buscam aquisições
-                </p>
-                <div class="info">
-                    <p class="text--medium">
-                        57min
+                <div class="content">
+                    <p class="title text--medium">
+                        Fintech Kushki se torna o mais novo unicórnio latino
+                        <br>
+                        <br>
+
                     </p>
+                    <div class="info">
+                        <p class="text--medium">
+                            57min
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
+        </a>
+        <a href="https://www.startse.com/artigos/netflix-pode-comprar-roku-para-implementar-anuncios-na-plataforma/">
+            <div class="card">
+                <div class="image">
+                    <img src="/img/pexels-freestocksorg-987586.jpg" alt="Netflix">
+                </div>
 
-        <div class="card">
-            <div class="image">
-                <img src="/img/unicornio.webp" alt="unicornio">
-            </div>
-
-            <div class="content">
-                <p class="title text--medium">
-                    Com startups mais 'baratas', grandes empresas buscam aquisições
-                </p>
-                <div class="info">
-                    <p class="text--medium">
-                        57min
+                <div class="content">
+                    <p class="title text--medium">
+                        Netflix pode comprar Roku para implementar anúncios na plataforma
                     </p>
+                    <div class="info">
+                        <p class="text--medium">
+                            57min
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
+        </a>
 
-        <div class="card">
-            <div class="image">
-                <img src="/img/unicornio.webp" alt="unicornio">
-            </div>
+        <a href="./artigos/futuro/futuro.html">
+            <div class="card">
+                <div class="image">
+                    <img src="/img/future.jpg" alt="futuro">
+                </div>
 
-            <div class="content">
-                <p class="title text--medium">
-                    Com startups mais 'baratas', grandes empresas buscam aquisições
-                </p>
-                <div class="info">
-                    <p class="text--medium">
-                        57min
+                <div class="content">
+                    <p class="title text--medium">
+                        Como as novas tecnologias mudam o mercado? Saiba como acompanhar
                     </p>
+                    <div class="info">
+                        <p class="text--medium">
+                            57min
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
+        </a>
+
     </section>
 
-    <section>
+
+    <section id="contatos">
+        <div class="send">
+            <h2>Entre em contato conosco!</h2>
+            <h4>Acesse nossas redes</h4>
+            <h4>Deixe uma mensagem:</h4>
+            <form>
+                <textarea name="mensagem" id="imensagem" cols="50" rows="10"
+                    placeholder="Deixe uma mensagem..."></textarea>
+                <input id="form-send" type="submit" value="Enviar">
+            </form>
+        </div>
+        <div class="main-container">
+        <div class="mesage-container">
+            <div class="contact-item">
+                <a href="https://twitter.com/startseoficial">
+                    <i class="fab fa-twitter"></i>
+                    <p>Twitter.com/StartSe</p>
+            </a>
+            </div>
+             
+            <div class="contact-item">
+                <a href="https://www.instagram.com/startseoficial/">
+                <i class="fab fa-instagram"></i>
+                <p>Instagram.com/StartSe</p>
+            </a>
+            </div>
+
+            <div class="contact-item">
+                <a href="https://www.facebook.com/startseoficial">
+                <i class="fab fa-facebook"></i>
+                <p>Facebook.com/StartSe</p>
+            </a>
+            </div>
+            
+            <div class="contact-item">
+                <a href="https://www.youtube.com/startseoficial">
+                <i class="fab fa-youtube"></i>
+                <p>Youtube.com/StartSeTech</p>
+            </a>
+            </div>
+
+            <div class="contact-item">
+                <a href="https://www.google.com/intl/pt-BR/account/about/">
+                <i class="fas fa-at"></i>
+                <p>atendimento@startse.com</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <footer>
+        <h5>STARTSE TURISMO DE NEGOCIOS LTDA CPNJ: 32.291.526/0001-64 | STARTSE INFORMACOES E SISTEMAS S/A CNPJ: 24.554.736/0002-50</h5>
+        <ul>
+            <li><a href="https://docs.startse.com/politica-de-privacidade?_ga=2.55048171.1554354091.1655122412-2085725539.1650324589">Política de Privacidade e termos</a></li>
+            <li><a href="https://docs.startse.com/politicas-gerais-de-cancelamento-e-remarcacao?_ga=2.55048171.1554354091.1655122412-2085725539.1650324589">Política Gerais de Cancelamento e Remarcação</a></li>
+            
+        </ul>
+    </footer>
+
+
+
+    <!----
+    <section id="contatos">
         <div id="contact">
             <div class="contact-container">
                 <div class="contact-text">
@@ -143,7 +216,6 @@
                     </div>
                     <div class="send">
                         <form>
-
                             <textarea name="mensagem" id="imensagem" cols="60" rows="10"
                                 placeholder="Deixe uma mensagem..."></textarea>
                             <input type="submit" value="Enviar">
@@ -159,6 +231,7 @@
 
         </div>
     </section>
+    -->
 
 </body>
 

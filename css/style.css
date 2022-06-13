@@ -145,6 +145,7 @@ a {
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
+    margin-bottom: 140px;
 }
 
 .text--medium {
@@ -183,6 +184,7 @@ a {
     top:50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    height: 100%;
 
 }
 
@@ -199,89 +201,117 @@ a {
 /*CONFIGURAÇÃO - CONTATOS
 *******************/
 
-#contact {
-    min-height: 500px;
-    border-top: 3px solid #0080ed;
-    border-bottom: 3px solid #0080ed;
-    margin: 100px auto;
+#contatos {
+    width: 90%;
     max-width: 980px;
-}
-
-#contact h2 {
     margin: auto;
-    color: #0080ed;
-    font-size: 35px;
-}
-
-.contact-text, .mensagem-text {
-    width: 95%;
-    font-size: 20px;
-    color: rgb(155, 155, 155);
-    font-weight: 700;
-}
-
-
-
-#contact i{
-    font-size: 40px;
-    color: rgb(131, 131, 131);
-    margin: 4px;
-    cursor: pointer;
-    padding-left: 10px;
-    padding-top: 10px;
+    width: 90%;
+    max-width: 980px;
+    display: flex;
+    background-color:rgb(184, 180, 180)
     
 }
 
-#contact i:hover {
-    transform: scale(1.1);
-    color: rgb(155, 155, 155);
+.send h3, h4{
+    color: #FFF;
+    margin: 4px;
+}
+
+.send h2 {
+   color: rgb(1, 39, 71);
+   font-size: 40px;
+   margin: 4px;
 }
 
 textarea {
-    vertical-align: text-top;
-    justify-content: left;
-    margin: 0px;
-    font-size: 12px;
+    margin: 4px;
+    width: 42em;
 }
 
-#imensagem {
+
+
+.mesage-container {
     color: #0080ed;
+    align-items: center;
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-gap: 60px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3px;
 }
 
-.mensagem-container {
+.contact-item {
+    border: 2px solid white;
+    box-shadow: 3px 4px 5px -2px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    height: 160%;
+    background-color: rgba(0, 128, 237, 1);
+    color: #FFF;
+
+}
+
+.contact-item i {
+    font-size: 30px;
+    padding-bottom: 8px;
+}
+
+.contact-item p {
+    font-size: 15px;
+}
+
+.contact-item a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.contact-item:hover {
+    background-color: #0080ed;
+    transform: translateY(-4px);
+    cursor: pointer;
+}
+
+#form-send {
+    margin: 4px;
+}
+
+/*CONFIGURAÇÕES - FOOTER
+*********/
+
+Footer{
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
+    margin: auto;
+    font-size: 15px;
+    color: dimgray;
+    max-width: 980px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    border-bottom: 4px solid gray;
+    padding-bottom: 8px;
 }
 
-.send-message{
-    display: block;
+footer ul {
+    display: flex;
 }
 
-.mensagem-container h2 {
-    padding-top: 8px;
-}
-
-
-.mensagem-container input[type="submit"] {
+footer ul li {
+    list-style: none;
     font-size: 12px;
-    width: 400px;
-    align-items: center;
-    margin-top: 30px;
-    display: block;
-
+    margin: 3px;
 }
 
-.img-mensagem{
-    width: 100%;
-    height: 100%;
-    margin: 10px;
-    padding-left: 150px;
+footer ul li:nth-last-child(2) {
+    border-right: 1px solid #0080ed;
+    padding-right: 2px;
 }
 
-.img-mensagem img {
-    width: 300px;
-    margin-top: 30px;
-   
+footer ul li a:hover {
+    text-decoration: underline;
+    
 }
-

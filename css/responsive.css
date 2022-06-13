@@ -29,8 +29,30 @@
         margin: 12px;
     }
 
-    .img-mensagem img {
-        display: none;
+    .mesage-container {
+        display: grid;
+        justify-content: center;
+        grid-template-columns:max-content;
+        row-gap: 15px;
+    }
+
+    .contact-item { 
+        height: 100%;
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+    }
+
+    .contact-item i {
+        font-size: 15px;
+    }
+
+    .contact-item p {
+        font-size: 10px;
+    }
+
+    textarea {
+        width: 100%;
     }
 
 }
@@ -41,16 +63,19 @@
         padding: 0px 20px;
     }
 
-   .cards {
-    row-gap: 20px;
-   }
+  
 }
 
 @media (max-width:630px) {
   
+    body{
+        overflow-x: hidden;
+        
+    }
     .menu-button-container {
         display: flex;
     }
+
 
     .menu {
         position: absolute;
@@ -141,31 +166,40 @@
         transform: translateX(-100vw);
         transition: 0.5s ease transform;
     }
-    
-}
 
-@media (max-width:1200px) {
-
-    .contact-text {
-        width: 40%;
-        font-size: 15px;
-        margin-bottom: 10px;
+    .mesage-container {
+        display: grid;
+        justify-content: center;
+        grid-template-columns:max-content;
+        row-gap: 15px;
     }
 
+    .contact-item { 
+        height: 100%;
+        
+    }
 
-    .mensagem-text {
+    .contact-item i {
+        font-size: 15px;
+    }
+
+    .contact-item p {
+        display: none;
+    }
+
+    
+    footer {
+        font-size: 10px;
+    }
+
+    footer li a {
+        font-size: 10px;
+    }
+
+    textarea {
         width: 100%;
     }
-
-    #contact i {
-        font-size: 20px;
-
-    }
-
-    #contact h2 {
-        font-size: 25px;
-
-    }
-
+    
+    
     
 }
